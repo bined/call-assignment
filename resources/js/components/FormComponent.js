@@ -40,11 +40,13 @@ function FormComponent(props) {
                 <Form className={classes.form}>
                  <Field
                     name="agents_file"
+                    label="Agents File"
                     component={FileInput}
                     setFieldValue={setFieldValue}
                 />
                 <Field
                     name="leads_file"
+                    label="Leads File"
                     component={FileInput}
                     setFieldValue={setFieldValue}
                 />
